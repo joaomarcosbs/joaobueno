@@ -24,12 +24,15 @@ const Header = () => {
             <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
               {/* logo */}
               <div className="logo">
-                <Link href="/" legacyBehavior>
+                <Link
+                  href="/"
+                  legacyBehavior
+                >
                   <a>
                     <img
                       width={228}
                       height={38}
-                      src="assets/images/logo2.png"
+                      src="assets/images/logo.png"
                       alt=""
                     />
                   </a>
@@ -80,7 +83,11 @@ const Header = () => {
                 </span>
               </a>
               {/* menu btn */}
-              <a href="#" className="menu-btn" onClick={(e) => toggleMenu(e)}>
+              <a
+                href="#"
+                className="menu-btn"
+                onClick={(e) => toggleMenu(e)}
+              >
                 <span />
                 <span />
               </a>
@@ -94,7 +101,10 @@ const Header = () => {
                         <div className="menu-full">
                           <ul className="menu-full">
                             <li className="menu-item">
-                              <Link legacyBehavior href="/">
+                              <Link
+                                legacyBehavior
+                                href="/"
+                              >
                                 <a
                                   className="splitting-text-anim-2"
                                   data-splitting="chars"
@@ -205,7 +215,10 @@ const Header = () => {
                                 }}
                               >
                                 <li className="menu-item">
-                                  <Link legacyBehavior href="/works-list">
+                                  <Link
+                                    legacyBehavior
+                                    href="/works-list"
+                                  >
                                     <a
                                       className="splitting-text-anim-1"
                                       data-splitting="chars"
@@ -215,7 +228,10 @@ const Header = () => {
                                   </Link>
                                 </li>
                                 <li className="menu-item">
-                                  <Link legacyBehavior href="/works">
+                                  <Link
+                                    legacyBehavior
+                                    href="/works"
+                                  >
                                     <a
                                       className="splitting-text-anim-1"
                                       data-splitting="chars"
@@ -225,7 +241,10 @@ const Header = () => {
                                   </Link>
                                 </li>
                                 <li className="menu-item">
-                                  <Link legacyBehavior href="/work-single">
+                                  <Link
+                                    legacyBehavior
+                                    href="/work-single"
+                                  >
                                     <a
                                       className="splitting-text-anim-1"
                                       data-splitting="chars"
@@ -235,7 +254,10 @@ const Header = () => {
                                   </Link>
                                 </li>
                                 <li className="menu-item">
-                                  <Link legacyBehavior href="/blog">
+                                  <Link
+                                    legacyBehavior
+                                    href="/blog"
+                                  >
                                     <a
                                       className=" splitting-text-anim-1"
                                       data-splitting="chars"
@@ -245,7 +267,10 @@ const Header = () => {
                                   </Link>
                                 </li>
                                 <li className="menu-item">
-                                  <Link legacyBehavior href="/blog-single">
+                                  <Link
+                                    legacyBehavior
+                                    href="/blog-single"
+                                  >
                                     <a
                                       className="splitting-text-anim-1"
                                       data-splitting="chars"

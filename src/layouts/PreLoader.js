@@ -8,8 +8,8 @@ const PreLoader = () => {
           <div className="vertical-center">
             <div className="spinner-logo">
               <img
-                src="assets/images/logo2.png"
-                alt="Luique - Personal Portfolio HTML Template"
+                src="assets/images/logo.png"
+                alt="João Bueno - Portfólio"
               />
               <div className="spinner-dot" />
               <div className="spinner spinner-line" />
