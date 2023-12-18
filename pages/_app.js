@@ -32,7 +32,35 @@ const App = ({ Component, pageProps }) => {
         />
         <meta
           name="author"
-          content="bslthemes"
+          content="João Bueno"
+        />
+        <meta
+          name="description"
+          content="Sou do Rio Grande do Sul, Brasil. Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, desenvolvendo apps para iOS, Android e Web."
+        />
+        <meta
+          property="og:type"
+          content="company"
+        />
+        <meta
+          property="og:url"
+          content="https://joaozinho.dev.br"
+        />
+        <meta
+          property="og:title"
+          content="João Bueno - Portfólio"
+        />
+        {/* <meta
+          property="og:image"
+          content="https://www.orni.com.br/assets/img/og.png"
+        /> */}
+        <meta
+          property="og:site_name"
+          content="João Bueno - Portfólio"
+        />
+        <meta
+          property="og:description"
+          content="Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, desenvolvendo apps para iOS, Android e Web. Sou do Rio Grande do Sul, Brasil."
         />
         {/* Fonts */}
         <link
