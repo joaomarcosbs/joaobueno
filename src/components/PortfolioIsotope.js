@@ -375,8 +375,8 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </h5>
                 <div className="text">
                   <p>
-                    Uma site institucional com multiplas páginas e formulários
-                    de contatos, feito em Next.JS
+                    Um site institucional com multiplas páginas e formulários de
+                    contatos, feito em Next.JS, JavaScript, HTML e CSS.
                   </p>
                 </div>
                 <Link
@@ -400,7 +400,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-web sorting-front-end sorting-nextjs ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-web sorting-front-end sorting-react ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -417,8 +417,9 @@ const PortfolioIsotope = ({ noViewMore }) => {
                     >
                       <img
                         decoding="async"
-                        src="assets/images/single8.jpg"
+                        src="assets/images/tattooa.png"
                         alt="Tattooa"
+                        style={{ objectFit: "contain" }}
                       />
                       <span className="overlay" />
                     </a>
@@ -426,7 +427,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> React, Front-end, web </span>
                 <h5 className="name">
                   <Link
                     legacyBehavior
@@ -436,14 +437,14 @@ const PortfolioIsotope = ({ noViewMore }) => {
                       rel="noreferrer"
                       target="_blank"
                     >
-                      Stay Fit
+                      Tattooa (até 10/23)
                     </a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Um site institucional com multiplas páginas e formulários de
+                    contatos, feito em React.JS, JavaScript, HTML e CSS.
                   </p>
                 </div>
                 <Link
@@ -467,7 +468,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-web sorting-front-end sorting-react ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -476,13 +477,16 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <div className="img">
                   <Link
                     legacyBehavior
-                    href="/work-single"
+                    href="https://valorcriarapp.com.br"
                   >
-                    <a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       <img
                         decoding="async"
-                        src="assets/images/single6.jpg"
-                        alt="Kana"
+                        src="assets/images/criarapp.png"
+                        alt="Valor Criar App"
                       />
                       <span className="overlay" />
                     </a>
@@ -494,22 +498,34 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 <h5 className="name">
                   <Link
                     legacyBehavior
-                    href="/work-single"
+                    href="https://valorcriarapp.com.br"
                   >
-                    <a>Kana</a>
+                    <a
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      Valor Criar App (até 10/23)
+                    </a>
                   </Link>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    Uma página com formulário multi etapas transicionais para
+                    solicitação de orçamento, feito em React.JS, JavaScript,
+                    HTML e CSS.
                   </p>
                 </div>
                 <Link
                   legacyBehavior
-                  href="/work-single"
+                  href="https://valorcriarapp.com.br"
                 >
-                  <a className="lnk">See project</a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    className="lnk"
+                  >
+                    Ver Projeto
+                  </a>
                 </Link>
               </div>
               <div
@@ -531,7 +547,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 className="btn scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span>View More</span>
+                <span>Ver Mais</span>
               </a>
             </Link>
           </div>
