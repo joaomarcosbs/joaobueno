@@ -160,7 +160,14 @@ const Index = () => {
                         Ano sendo <strong>Desenvolvedor</strong>
                       </span>
                     </li>
-                    <li style={{ marginTop: -20 }}>
+                    <li
+                      style={{
+                        marginTop: 20,
+                        marginLeft: 250,
+                        paddingRight: 25,
+                        paddingLeft: 5,
+                      }}
+                    >
                       <span className="num">+20</span>
                       <span className="value">
                         participações em <strong>Projetos</strong>
