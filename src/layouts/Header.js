@@ -83,22 +83,22 @@ const Header = () => {
                 </span>
               </a>
               {/* menu btn */}
-              <a
+              {/* <a
                 href="#"
                 className="menu-btn"
                 onClick={(e) => toggleMenu(e)}
               >
                 <span />
                 <span />
-              </a>
+              </a> */}
               {/* Menu Full Overlay */}
-              <div className="menu-full-overlay">
+              {/* <div className="menu-full-overlay">
                 <div className="menu-full-container">
                   <div className="container">
                     <div className="row">
-                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        {/* menu full */}
-                        <div className="menu-full">
+                      <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12"> */}
+              {/* menu full */}
+              {/* <div className="menu-full">
                           <ul className="menu-full">
                             <li className="menu-item">
                               <Link
@@ -282,9 +282,9 @@ const Header = () => {
                               </ul>
                             </li>
                           </ul>
-                        </div>
-                        {/* social */}
-                        <div className="menu-social-links">
+                        </div> */}
+              {/* social */}
+              {/* <div className="menu-social-links">
                           <a
                             href="http://dribbble.com"
                             target="blank"
@@ -309,14 +309,14 @@ const Header = () => {
                           >
                             <i className="fab fa-behance" />
                           </a>
-                        </div>
-                        <div className="v-line-block">
-                          <span />
+                        </div> */}
+              <div className="v-line-block">
+                {/* <span />
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="menu-overlay" />
               </div>
             </div>

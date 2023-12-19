@@ -75,6 +75,34 @@ const App = ({ Component, pageProps }) => {
           type="text/css"
           media="all"
         />
+        <meta
+          name="twitter:card"
+          content="summary"
+        />
+        <meta
+          name="twitter:url"
+          content="https://joaozinho.dev.com.br"
+        />
+        <meta
+          name="twitter:image"
+          content="https://joaozinho.dev.br/assets/images/me.JPG"
+        />
+        <meta
+          name="twitter:site"
+          content="@TheLabaxurias"
+        />
+        <meta
+          name="twitter:title"
+          content="João Bueno - Desenvolvedor de Software"
+        />
+        <meta
+          name="twitter:creator"
+          content="@TheLabaxurias"
+        />
+        <meta
+          name="twitter:description"
+          content="Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, desenvolvendo apps para iOS, Android e Web. Sou do Rio Grande do Sul, Brasil."
+        />
         {/* CSS STYLES */}
         <link
           rel="stylesheet"

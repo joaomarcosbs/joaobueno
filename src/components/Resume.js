@@ -3,54 +3,54 @@ import { useState } from "react";
 const educationData = [
   {
     id: 1,
-    title: "Backend Programming",
-    academy: "CoderHouse Course",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2014",
-    endYear: "2016",
+    title: "Análise e Desenvolvimento de Sistemas",
+    academy: "Instituto Federal de Educação, Ciência e Tecnologia",
+    // dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    // startYear: "2015",
+    endYear: "2022",
   },
   {
     id: 2,
-    title: "Faculty of Design",
-    academy: "Lviv National Academy of Arts",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Microsoft Student to Business",
+    academy: "Pontíficia Universidade Católica",
+    dec: "Trilha Teste de Software",
     startYear: "2012",
-    endYear: "2014",
+    endYear: "2017",
   },
   {
     id: 3,
-    title: "High School",
-    academy: "IT Future",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Manutenção de Hardware",
+    academy: "Microcamp Tecnologia",
+    //dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     startYear: "2010",
-    endYear: "2012",
+    endYear: "2015",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "UI Head & Manager",
-    company: "Soft Tech Inc.",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2020",
-    endYear: false,
+    title: "Desenvolvedor FullStack JR.",
+    company: "Orni Venture Builder",
+    dec: "Desenvolvimento de sites em React.Js e Next.Js. Desenvolvimento de apps mobile em React Native para Android e iOS. Manutenção em códigos, como API's, em Node.js. Consumo de API's. Uso de metodologias ágeis e GitHub para versionamento",
+    startYear: "10/2022",
+    endYear: "10/2023",
   },
   {
     id: 2,
-    title: "UI / UX Specialist",
-    company: "Kana Design Studio",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2018",
-    endYear: "2020",
+    title: "Estagiário T.I.",
+    company: "TCE/RS",
+    dec: "Participar do desenvolvimento e manutenção de plataformas de trabalho para acompanhamento de Plano de Gestão, auditorias internas de gestão, gestão de riscos, MMD-TC e elaboração de pesquisas sobre diversos temas.",
+    startYear: "03/2021",
+    endYear: "08/2022",
   },
   {
     id: 3,
-    title: "Plugins Developer",
-    company: "Fiverr.com",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2016",
-    endYear: "2018",
+    title: "Estagiário Suporte de T.I.",
+    company: "MPRS",
+    dec: "Registrar chamados técnicos no GLPI e controlar o efetivo atendimento dos chamados. Instalar, configurar e interligar os equipamentos de informática: microcomputadores, impressoras e periféricos, bem como fazer a manutenção dos mesmos. Documentar a movimentação patrimonial da/para UEQ. Instalação, interligação, conectorização e documentação dos cabeamentos lógicos do MPRS.",
+    startYear: "02/2018",
+    endYear: "02/2020",
   },
 ];
 
@@ -58,7 +58,10 @@ const Resume = () => {
   const [educationToggle, setEducationToggle] = useState(1);
   const [experienceToggle, setExperienceToggle] = useState(1);
   return (
-    <section className="lui-section lui-gradient-bottom" id="resume-section">
+    <section
+      className="lui-section lui-gradient-bottom"
+      id="resume-section"
+    >
       {/* Heading */}
       <div className="lui-heading">
         <div className="container">
@@ -68,7 +71,7 @@ const Resume = () => {
               data-splitting="words"
               data-animate="active"
             >
-              <span> Resume </span>
+              <span> Currículo </span>
             </h2>
             <div
               className="m-subtitle splitting-text-anim-1 scroll-animate"
@@ -77,7 +80,7 @@ const Resume = () => {
             >
               <span>
                 {" "}
-                my <b>Story</b>
+                minha <b>História</b>
               </span>
             </div>
           </div>
@@ -92,7 +95,7 @@ const Resume = () => {
                 className="history-title scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span> Education </span>
+                <span> Educação </span>
               </h5>
               <div className="history-items">
                 {educationData.map((education, i) => (
@@ -122,7 +125,7 @@ const Resume = () => {
                       <div className="date lui-subtitle">
                         <span>
                           {" "}
-                          {education.startYear} - {education.endYear}{" "}
+                          {/* {education.startYear} -*/} {education.endYear}{" "}
                         </span>
                       </div>
                       <div className="text">
@@ -140,22 +143,28 @@ const Resume = () => {
                 className="history-title scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                <span> Experience </span>
+                <span> Experiência </span>
               </h5>
               <div className="history-items">
-                {experienceData.map((experience) => (
+                {experienceData.map((experience, i) => (
                   <div
+                    key={experience.id}
                     className={`history-item lui-collapse-item scroll-animate ${
-                      experience.id == experienceToggle ? "opened" : ""
+                      experienceToggle == experience.id ? "opened" : ""
                     }`}
                     data-animate="active"
-                    key={experience.id}
                   >
                     <h6
                       className={`name lui-collapse-btn ${
                         experienceToggle == experience.id ? " active" : ""
                       }`}
-                      onClick={() => setExperienceToggle(experience.id)}
+                      onClick={() =>
+                        setExperienceToggle(
+                          experienceToggle == experience.id
+                            ? null
+                            : experience.id
+                        )
+                      }
                     >
                       <span> {experience.title} </span>
                     </h6>
@@ -186,7 +195,7 @@ const Resume = () => {
             </div>
           </div>
           <div className="lui-bgtitle">
-            <span> History </span>
+            <span> Tragetória </span>
           </div>
         </div>
       </div>

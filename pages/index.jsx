@@ -309,30 +309,30 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
-              {/* <SwiperSlide className="swiper-slide">
+              <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Advertising </span>
+                    <span> Desenvolvimento Web </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Google Ads </span>
+                    <span> WordPress </span>
                   </h5>
                   <div className="lui-text">
                     <div>
                       {" "}
-                      Advertising services include: Google search result pages,
-                      gmails, YouTube and other websites participated in Google
-                      Ads program.{" "}
+                      Desenvolvimento web para sites, landing pages e e-commerce
+                      usando ferramentas baseadas em WordPress, integração a
+                      outras plataformas{" "}
                     </div>
                   </div>
-                  <a
+                  {/* <a
                     href="#pricing-section"
                     className="lnk"
                   >
                     {" "}
                     See Pricing{" "}
-                  </a>
+                  </a> */}
                   <div
                     className="image"
                     style={{
@@ -341,7 +341,7 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
+              {/* <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
                     <span> Music Writing </span>
@@ -657,12 +657,12 @@ const Index = () => {
       {/* Section - Resume */}
       <Resume />
       {/* Section - Testimonials */}
-      <section
+      {/* <section
         className="lui-section lui-gradient-center"
         id="testimonials-section"
-      >
-        {/* Heading */}
-        <div className="lui-heading">
+      > */}
+      {/* Heading */}
+      {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2
@@ -670,7 +670,7 @@ const Index = () => {
                 data-splitting="words"
                 data-animate="active"
               >
-                <span> Testimonials </span>
+                <span> Recomendações </span>
               </h2>
               <div
                 className="m-subtitle splitting-text-anim-1 scroll-animate"
@@ -679,14 +679,14 @@ const Index = () => {
               >
                 <span>
                   {" "}
-                  what <b>Customers Say</b>
+                  o que <b>as pessoas falam</b>
                 </span>
               </div>
             </div>
           </div>
-        </div>
-        {/* Testimonials */}
-        <div className="v-line v-line-right">
+        </div> */}
+      {/* Testimonials */}
+      {/* <div className="v-line v-line-right">
           <div className="container">
             <Swiper
               {...testimonialsSliderProps}
@@ -950,14 +950,14 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Section - Pricing */}
-      <section
+      {/* <section
         className="lui-section lui-gradient-center"
         id="pricing-section"
-      >
-        {/* Heading */}
-        <div className="lui-heading">
+      > */}
+      {/* Heading */}
+      {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2
@@ -979,9 +979,9 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* Pricing */}
-        <div className="v-line v-line-left">
+        </div> */}
+      {/* Pricing */}
+      {/* <div className="v-line v-line-left">
           <div className="container">
             <div className="pricing-items row">
               <div className="pricing-col col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -1172,15 +1172,15 @@ const Index = () => {
               <span> Pricing </span>
             </div>
           </div>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */}
       {/* Section - Blog */}
-      <section
+      {/* <section
         className="lui-section lui-gradient-top"
         id="blog-section"
-      >
-        {/* Heading */}
-        <div className="lui-heading">
+      > */}
+      {/* Heading */}
+      {/* <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
               <h2
@@ -1202,9 +1202,9 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </div>
-        {/* Archive */}
-        <div className="v-line v-line-right">
+        </div> */}
+      {/* Archive */}
+      {/* <div className="v-line v-line-right">
           <div className="container">
             <div className="blog-items row">
               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -1372,11 +1372,11 @@ const Index = () => {
               <span> Blog </span>
             </div>
           </div>
-        </div>
-      </section>
+        </div> */}
+
       {/* Section - Contacts */}
       <section
-        className="lui-section lui-gradient-bottom"
+        className="lui-section lui-gradient-center"
         id="contact-section"
       >
         {/* Heading */}
@@ -1388,7 +1388,7 @@ const Index = () => {
                 data-splitting="words"
                 data-animate="active"
               >
-                <span> Contact Me </span>
+                <span> Entre em Contato </span>
               </h2>
               <div
                 className="m-subtitle splitting-text-anim-1 scroll-animate"
@@ -1397,7 +1397,7 @@ const Index = () => {
               >
                 <span>
                   {" "}
-                  Let’s <b>Talk About Ideas</b>
+                  vamos <b>Trocar Experiências</b>
                 </span>
               </div>
             </div>
@@ -1420,10 +1420,10 @@ const Index = () => {
                       />
                     </div>
                     <div className="title">
-                      <span> Address </span>
+                      <span> Localização </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span> Rio Grande do Sul, Brasil </span>
                     </div>
                   </div>
                   <div
@@ -1437,10 +1437,10 @@ const Index = () => {
                       />
                     </div>
                     <div className="title">
-                      <span> Freelance </span>
+                      <span> Contratação </span>
                     </div>
                     <div className="lui-text">
-                      <span> Available Right Now </span>
+                      <span> Disponível CLT, PJ e Freelance </span>
                     </div>
                   </div>
                   <div
@@ -1457,7 +1457,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> contato@joaozinho.dev.br </span>
                     </div>
                   </div>
                   <div
@@ -1471,10 +1471,10 @@ const Index = () => {
                       />
                     </div>
                     <div className="title">
-                      <span> Phone </span>
+                      <span> Telefone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                      <span> +55 51 99323-4217 </span>
                     </div>
                   </div>
                 </div>
@@ -1492,17 +1492,20 @@ const Index = () => {
                   />
                   <div className="contacts-form">
                     <form
-                      onSubmit={(e) => e.preventDefault()}
+                      // onSubmit={(e) => e.preventDefault()}
                       id="cform"
+                      action="https://formsubmit.co/6e7f8a4847e17367b3ce5ef9ab490b5f"
+                      method="POST"
                     >
                       <div className="row">
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div className="group">
                             <label>
-                              Your Full Name <b>*</b>
+                              Seu Nome <b>*</b>
                               <input
                                 type="text"
                                 name="name"
+                                required
                               />
                             </label>
                           </div>
@@ -1510,10 +1513,11 @@ const Index = () => {
                         <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           <div className="group">
                             <label>
-                              Your Email Address <b>*</b>
+                              Seu Email <b>*</b>
                               <input
                                 type="email"
                                 name="email"
+                                required
                               />
                             </label>
                           </div>
@@ -1521,10 +1525,11 @@ const Index = () => {
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                           <div className="group">
                             <label>
-                              Your Subject <b>*</b>
+                              Assunto <b>*</b>
                               <input
                                 type="text"
                                 name="subject"
+                                required
                               />
                             </label>
                           </div>
@@ -1532,25 +1537,36 @@ const Index = () => {
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                           <div className="group">
                             <label>
-                              Your Message <b>*</b>
+                              Mensagem <b>*</b>
                               <textarea
                                 name="message"
                                 defaultValue={""}
+                                required
                               />
                             </label>
                           </div>
                         </div>
+                        <input
+                          type="hidden"
+                          name="_subject"
+                          value="Contato Portfólio"
+                        ></input>
+                        <input
+                          type="hidden"
+                          name="_next"
+                          value="https://joaozinho.dev.br"
+                        ></input>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-                          <div className="terms-label">
+                          {/* <div className="terms-label">
                             * Accept the terms and conditions.
-                          </div>
-                          <a
-                            href="#"
+                          </div> */}
+                          <button
                             className="btn"
-                            onclick="$('#cform').submit(); return false;"
+                            type="submit"
+                            //onclick="$('#cform').submit(); return false;"
                           >
-                            <span>Send Message</span>
-                          </a>
+                            <span>Enviar mensagem</span>
+                          </button>
                         </div>
                       </div>
                     </form>
@@ -1558,14 +1574,14 @@ const Index = () => {
                       className="alert-success"
                       style={{ display: "none" }}
                     >
-                      <p>Thanks, your message is sent successfully.</p>
+                      <p>Obrigado pela mensagem! Ela foi entregue :)</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="lui-bgtitle">
-              <span> Contact Me </span>
+              <span> Contato </span>
             </div>
           </div>
         </div>
