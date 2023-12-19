@@ -99,7 +99,7 @@ const Index = () => {
                 <div className="bts">
                   <a
                     target="_blank"
-                    href={process.env.CURRICULO}
+                    href="https://drive.google.com/drive/folders/1w9OuyypoOVd_LcFT6n5iW-ST3A7x3wVU?usp=sharing"
                     className="btn"
                   >
                     <span>Baixar Currículo</span>
