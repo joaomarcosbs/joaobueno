@@ -36,7 +36,7 @@ const App = ({ Component, pageProps }) => {
         />
         <meta
           name="description"
-          content="Sou do Rio Grande do Sul, Brasil. Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, desenvolvendo apps para iOS, Android e Web."
+          content="Sou do Rio Grande do Sul, Brasil. Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, WordPress, desenvolvendo apps para iOS, Android e Web."
         />
         <meta
           property="og:type"
@@ -60,7 +60,7 @@ const App = ({ Component, pageProps }) => {
         />
         <meta
           property="og:description"
-          content="Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, desenvolvendo apps para iOS, Android e Web. Sou do Rio Grande do Sul, Brasil."
+          content="Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, WordPress, desenvolvendo apps para iOS, Android e Web. Sou do Rio Grande do Sul, Brasil."
         />
         {/* Fonts */}
         <link
@@ -101,7 +101,7 @@ const App = ({ Component, pageProps }) => {
         />
         <meta
           name="twitter:description"
-          content="Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, desenvolvendo apps para iOS, Android e Web. Sou do Rio Grande do Sul, Brasil."
+          content="Desenvolvedor JavaScript, usando React.JS, React Native, Next.JS, WordPress, desenvolvendo apps para iOS, Android e Web. Sou do Rio Grande do Sul, Brasil."
         />
         {/* CSS STYLES */}
         <link
